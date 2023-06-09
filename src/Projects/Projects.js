@@ -70,7 +70,7 @@ function Projects({ setStyle }) {
   const completed2 = [];
 
   const flipkartclone = {
-    head: "FLIPKART CLONE",
+    head: "Flipkart Clone",
     underDev: true,
     skillsUsed: [
       "React",
