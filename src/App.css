@@ -14,7 +14,7 @@
   scroll-behavior:smooth ;
   width:100%;
   height:100vh;
-  background:rgb(72, 52, 128);
+  background-image:linear-gradient(rgb(0, 247, 255), rgb(45, 223, 22),rgb(0, 255, 42));
   overflow: hidden;
   display:grid;
   justify-items: center;
@@ -28,7 +28,7 @@
   z-index:5;
   transition: all 0.775s ease-in-out;
   overflow: hidden;
-  background:rgb(72, 52, 128);
+  background-image:linear-gradient(rgb(0, 247, 255), rgb(45, 223, 22),rgb(0, 255, 42));
 }
 .logo_style{
   margin:0%;

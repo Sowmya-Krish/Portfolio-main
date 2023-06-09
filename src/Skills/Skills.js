@@ -209,7 +209,7 @@ const postman = {
                  <div className="knowOuter">
                    <h2>{"<"}Knowledge{"/>"}</h2>
                    <div className="knowInner"
-                       style={{background:`linear-gradient(to right,red ${display.knowledge}%,white ${display.knowledge+40}%)`}}>
+                       style={{background:`linear-gradient(to right,rgb(45, 223, 22) ${display.knowledge}%,white ${display.knowledge+40}%)`}}>
                       
                    </div>
                  </div>
