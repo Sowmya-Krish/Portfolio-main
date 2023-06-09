@@ -90,7 +90,7 @@ function Projects({ setStyle }) {
     ],
   };
   const EMAILAPP = {
-    head: "Email App",
+    head: "EMAIL APP",
     underDev: true,
     skillsUsed: ["React", "MUI", "NodeJS", "MongoDB", "SMTP.JS", "yopmail"],
     concepts: [
@@ -103,7 +103,7 @@ function Projects({ setStyle }) {
     ],
   };
   const pettycash = {
-    head: "Petty Cash",
+    head: "PETTY CASH",
     skillsUsed: ["React", "NodeJS", "ExpressJS", "MongoDB"],
     concepts: [
       "App helps to simplify and enables you to keep track of your expenses in real time. Desired Outcomes.",
@@ -115,7 +115,7 @@ function Projects({ setStyle }) {
     ],
   };
   const todolist = {
-    head: "TO-DO List",
+    head: "TO-DO LIST",
     skillsUsed: ["React", "MUI", "NodeJS", "MongoDB", "JWT"],
     concepts: [
       "To-do list applications help us organize our list of tasks, manage our projects and keep us sane as we manage our day ahead",
@@ -189,13 +189,13 @@ function Projects({ setStyle }) {
     let toDisplay;
     if (e.target.title === "FLIPKARTCLONE") {
       toDisplay = flipkartclone;
-    } else if (e.target.title === "Emailapp") {
+    } else if (e.target.title === "EMAIL APP") {
       toDisplay = EMAILAPP;
-    } else if (e.target.title === "Petty Cash") {
+    } else if (e.target.title === "PETTY CASH") {
       toDisplay = pettycash;
     } else if (e.target.title === "Admin") {
       toDisplay = admin;
-    } else if (e.target.title === "TO-DO List") {
+    } else if (e.target.title === "TO-DO LIST") {
       toDisplay = todolist;
     } else if (e.target.title === "Todo-List") {
       toDisplay = todo;
