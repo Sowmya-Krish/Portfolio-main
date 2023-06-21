@@ -83,10 +83,10 @@ function Projects({ setStyle }) {
     concepts: [
       "Ecommerce App built with Authentication, JWT, Authorization ,RestAPI-CRUD",
     ],
-    site: "https://starlit-begonia-346dd5.netlify.app",
+    site: "https://rad-donut-63350c.netlify.app/",
     src: [
-      "https://github.com/Sowmya-Krish/flipkart-frontend",
-      "https://github.com/Sowmya-Krish/Flipkart--Backend",
+      "https://github.com/Sowmya-Krish/Flipkart-Front-end",
+      "https://github.com/Sowmya-Krish/Flipkart-Back-end",
     ],
   };
   const EMAILAPP = {

@@ -43,13 +43,13 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Flipkart}
-               isBlog={false}
+              isBlog={false}
               title="Ecommerce"
               description="A MERN stack application e-commerce site that is build using React, MUI, 
               NodeJS, ExpressJS, MongoDB, PayTM payment integration"
-              link="https://starlit-begonia-346dd5.netlify.app/"
-              client="https://github.com/Sowmya-Krish/flipkart-frontend"
-              server="https://github.com/Sowmya-Krish/Flipkart--Backend"
+              link="https://rad-donut-63350c.netlify.app/"
+              client="https://github.com/Sowmya-Krish/Flipkart-Front-end"
+              server="https://github.com/Sowmya-Krish/Flipkart-Back-end"
             />
           </Col>
 
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-             // imgPath={gmail}
+              // imgPath={gmail}
               isBlog={false}
               title="Mail Application"
               description="Mail app is the MERN Stack application using nodemailer for send mail."
