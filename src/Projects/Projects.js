@@ -83,7 +83,7 @@ function Projects({ setStyle }) {
     concepts: [
       "Ecommerce App built with Authentication, JWT, Authorization ,RestAPI-CRUD",
     ],
-    site: "https://rad-donut-63350c.netlify.app/",
+    site: "https://majestic-axolotl-fcd764.netlify.app/",
     src: [
       "https://github.com/Sowmya-Krish/Flipkart-Front-end",
       "https://github.com/Sowmya-Krish/Flipkart-Back-end",
