@@ -220,7 +220,7 @@ function ContactMe({ style, setStyle }) {
             <div className="contactLinks">
               <button>
                 <a
-                  href="https://drive.google.com/file/d/10blrL1YXPTctnRw1m6ek6fCk4xI6KbQI/view?usp=sharing"
+                  href="https://drive.google.com/file/d/10blrL1YXPTctnRw1m6ek6fCk4xI6KbQI/view"
                   rel="noreferrer"
                   target="_blank"
                   title="Resume"
