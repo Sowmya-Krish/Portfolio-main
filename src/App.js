@@ -81,7 +81,7 @@ function App() {
         <Route
           path="/"
           element={
-            <Home style={style} setStyle={setStyle} setPages={setPages} />
+            <Home style={style} setStyle={setStyle} setPages={setPages}/>
           }
         />
         <Route

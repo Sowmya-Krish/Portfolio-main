@@ -65,11 +65,11 @@ export function Nav({setStyle,pages,setPages}){
         <div className="navBar">
             {/* <button><a href="#home">Home</a></button> */}
             <div ref={nav} className="navButtons">
-               <button onClick={navigation} value="/Projects" title="Projects" >🎪</button>
-               <button onClick={navigation} value="/Contact-me" title="Contact-me">👨‍💻</button>
-               <button onClick={navigation} value="/" title="Home" autoFocus>🏠</button>
-               <button onClick={navigation} value="/Experience" title="Experience">💼</button>
-               <button onClick={navigation} value="/Skills" title="Skills">🧗‍♂️</button>
+               <button onClick={navigation} value="/Projects" title="Projects" >Projects👩‍💻</button>
+               <button onClick={navigation} value="/Contact-me" title="Contact-me">Contact-me📞</button>
+               <button onClick={navigation} value="/" title="Home" autoFocus>Home🏡</button>
+               <button onClick={navigation} value="/Experience" title="Experience">Experience🏅</button>
+               <button onClick={navigation} value="/Skills" title="Skills">Skills💻</button>
             </div>
         <div className="innerNav"></div>
         </div>

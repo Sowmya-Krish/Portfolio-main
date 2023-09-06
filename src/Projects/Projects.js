@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import "./projects.css";
-import FLIPKARTCLONE from "../images/projectImages/Flipkart.jpg";
+import FLIPKARTCLONE from "../images/projectImages/Flipkart.webp";
 import ToDoList from "../images/projectImages/todo.jpg";
 //import Calc from "../images/projectImages/Calc.webp";
-import Emailapp from "../images/projectImages/email2.png";
+import Emailapp from "../images/projectImages/email.png";
 //import Admin from "../images/projectImages/Admin.webp";
 //import Security from "../images/projectImages/Security.webp";
 //import Todo from "../images/projectImages/Todo.webp";
@@ -70,41 +70,41 @@ function Projects({ setStyle }) {
   const completed2 = [];
 
   const flipkartclone = {
-    head: "Flipkart Clone",
+    head: "Sowmi's Cart",
     underDev: true,
     skillsUsed: [
       "React",
-      "MUI",
       "NodeJS",
       "ExpressJS",
       "MongoDB",
-      "PayTM payment integration",
+      "Payment integration",
+      "Admin Panel",
     ],
     concepts: [
-      "Ecommerce App built with Authentication, JWT, Authorization ,RestAPI-CRUD",
+      "Ecommerce Application which allows customer to browse and purchase items from an online store",
     ],
-    site: "https://majestic-axolotl-fcd764.netlify.app/",
+    site: "https://new-tw1l.onrender.com/",
     src: [
-      "https://github.com/Sowmya-Krish/Flipkart-Front-end",
-      "https://github.com/Sowmya-Krish/Flipkart-Back-end",
+      "https://github.com/Sowmya-Krish/Sowmi-scart-Frontend",
+      "https://github.com/Sowmya-Krish/Sowmi-s-Ecommerce-App",
     ],
   };
   const EMAILAPP = {
-    head: "Email App",
+    head: "Chat Application",
     underDev: true,
-    skillsUsed: ["React", "MUI", "NodeJS", "MongoDB", "SMTP.JS", "yopmail"],
+    skillsUsed: ["React", "NodeJS", "MongoDB", "Socket io"],
     concepts: [
-      "We can compose a new e-mail, send real time emails with options of Inbox, Drafts, Starred options etc",
+      "A realtime chat application that allow users to send and receive messages online",
     ],
-    site: "https://tranquil-basbousa-492899.netlify.app",
+    site: "https://eloquent-cranachan-67c20c.netlify.app/",
     src: [
-      "https://github.com/Sowmya-Krish/Email-app-Frontend",
-      "https://github.com/Sowmya-Krish/Email-app-backend",
+      "https://github.com/Sowmya-Krish/ChatApp---Frontend",
+      "https://github.com/Sowmya-Krish/Chatapp---Backend",
     ],
   };
   const pettycash = {
     head: "Petty Cash",
-    skillsUsed: ["React", "NodeJS", "ExpressJS", "MongoDB"],
+    skillsUsed: ["React", "NodeJS", "ExpressJS", "MongoDB", "CRUD"],
     concepts: [
       "App helps to simplify and enables you to keep track of your expenses in real time. Desired Outcomes.",
     ],
@@ -116,7 +116,7 @@ function Projects({ setStyle }) {
   };
   const todolist = {
     head: "TO-DO List",
-    skillsUsed: ["React", "MUI", "NodeJS", "MongoDB", "JWT"],
+    skillsUsed: ["React", "MUI", "NodeJS", "MongoDB"],
     concepts: [
       "To-do list applications help us organize our list of tasks, manage our projects and keep us sane as we manage our day ahead",
     ],

@@ -91,7 +91,7 @@ function Home({ setStyle, setPages }) {
               <button onClick={handleClick} title="contact">
                 Contact Me🤵
               </button>
-            </div>
+              </div>
           </div>
           {/* <p className="navInfo">
                             {"<-------------Feel Free to use Nav bar and 🏹 keys"}

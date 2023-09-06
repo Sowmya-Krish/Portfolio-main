@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import blog from "../../Assets/Projects/blog.png";
 import email from "../../Assets/Projects/email.png";
-import Flipkart from "../../Assets/Projects/Flipkart.jpg";
+import Flipkart from "../../Assets/Projects/f";
 //import gmail from "../../Assets/Projects/gmail.png";
 import DemoCredential from "./DemoCredential";
 

@@ -28,7 +28,7 @@
     -webkit-background-clip:text;
     background-clip: text;
     color:transparent;
-    font-size: 3.8vh;
+    font-size: 1vh;
     cursor:pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -85,7 +85,7 @@
         margin: 1.75% 1%;
     }
     .navButtons button{
-     font-size: 6vmin;
+     font-size: 3vmin;
     }
     .navButtons button:first-child, 
     .navButtons button:last-child{
@@ -115,7 +115,7 @@
        margin:2.5% 0%;
    }
    .navButtons button{
-    font-size: 3.5vh;
+    font-size: 0px;
    }
    .navButtons button:first-child, 
    .navButtons button:last-child{
