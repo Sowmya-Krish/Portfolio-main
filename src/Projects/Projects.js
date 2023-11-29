@@ -60,35 +60,16 @@ function Projects({ setStyle }) {
   }, [setStyle, animate]);
 
   const onGoing = [
-    [FLIPKARTCLONE, "FLIPKARTCLONE"],
+    [ToDoList, "TO-DO List"],
     [Emailapp, "Emailapp"],
   ];
   const completed1 = [
     [PettyCash, "Petty Cash"],
-    [ToDoList, "TO-DO List"],
+    [FLIPKARTCLONE, "FLIPKARTCLONE"],
   ];
   const completed2 = [];
 
-  const flipkartclone = {
-    head: "Sowmi's Cart",
-    underDev: true,
-    skillsUsed: [
-      "React",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-      "Payment integration",
-      "Admin Panel",
-    ],
-    concepts: [
-      "Ecommerce Application which allows customer to browse and purchase items from an online store",
-    ],
-    site: "https://new-tw1l.onrender.com/",
-    src: [
-      "https://github.com/Sowmya-Krish/Sowmi-scart-Frontend",
-      "https://github.com/Sowmya-Krish/Sowmi-s-Ecommerce-App",
-    ],
-  };
+
   const EMAILAPP = {
     head: "Chat Application",
     underDev: true,
@@ -162,6 +143,26 @@ function Projects({ setStyle }) {
     concepts: ["DOM-Manipulation", "Event Handling"],
     site: "https://calculator-by-rv.netlify.app/",
     src: "https://github.com/VIGNESHWAR-RV/CALCULATOR",
+  };
+  const flipkartclone = {
+    head: "Sowmi's Cart",
+    underDev: true,
+    skillsUsed: [
+      "React",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Payment integration",
+      "Admin Panel",
+    ],
+    concepts: [
+      "Ecommerce Application which allows customer to browse and purchase items from an online store",
+    ],
+    site: "https://new-tw1l.onrender.com/",
+    src: [
+      "https://github.com/Sowmya-Krish/Sowmi-scart-Frontend",
+      "https://github.com/Sowmya-Krish/Sowmi-s-Ecommerce-App",
+    ],
   };
 
   function Concepts({ index, skill }) {

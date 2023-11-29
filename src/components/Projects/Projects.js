@@ -42,19 +42,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Flipkart}
-              isBlog={false}
-              title="Ecommerce"
-              description="A MERN stack application e-commerce site that is build using React, MUI, 
-              NodeJS, ExpressJS, MongoDB, PayTM payment integration"
-              link="https://rad-donut-63350c.netlify.app/"
-              client="https://github.com/Sowmya-Krish/Flipkart-Front-end"
-              server="https://github.com/Sowmya-Krish/Flipkart-Back-end"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={email}
               isBlog={false}
               title="Email app"
@@ -86,6 +73,19 @@ function Projects() {
               link="https://calm-profiterole-5e6a96.netlify.app"
               client="https://github.com/KamalRenu/blog-app-frontend"
               server="https://github.com/KamalRenu/blog-app-backend"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Flipkart}
+              isBlog={false}
+              title="Ecommerce"
+              description="A MERN stack application e-commerce site that is build using React, MUI, 
+              NodeJS, ExpressJS, MongoDB, PayTM payment integration"
+              link="https://rad-donut-63350c.netlify.app/"
+              client="https://github.com/Sowmya-Krish/Flipkart-Front-end"
+              server="https://github.com/Sowmya-Krish/Flipkart-Back-end"
             />
           </Col>
         </Row>
