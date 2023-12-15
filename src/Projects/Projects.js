@@ -59,16 +59,12 @@ function Projects({ setStyle }) {
     };
   }, [setStyle, animate]);
 
-  const onGoing = [
-    [ToDoList, "TO-DO List"],
-    [Emailapp, "Emailapp"],
-  ];
+  const onGoing = [[Emailapp, "Emailapp"], [ToDoList, "TO-DO List"], ,];
   const completed1 = [
     [PettyCash, "Petty Cash"],
     [FLIPKARTCLONE, "FLIPKARTCLONE"],
   ];
   const completed2 = [];
-
 
   const EMAILAPP = {
     head: "Chat Application",
